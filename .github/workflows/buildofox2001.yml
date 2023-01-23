@@ -51,7 +51,7 @@ jobs:
              cd ~/sync
              git clone https://gitlab.com/OrangeFox/sync.git
              # mkdir ~/work
-             sync/./orangefox_sync.sh --branch 12.1 --path ~/work
+             sync/./orangefox_sync.sh --branch 12.1 --path work
              git clone $DT_LINK --depth=1 --single-branch $DT_PATH
              
        - name: Build
